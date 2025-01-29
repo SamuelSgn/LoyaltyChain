@@ -1,122 +1,99 @@
-:root {
-  --gray: #B8B7B0;
-  --light-gray: #B1A29F;
-  --brown: #996B5C;
-  --dark-brown: #653E32;
-  --green: #4A4947;
-}
-
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: var(--gray);
-  color: var(--green);
-}
-
-.app-container {
+.auth-form-container, .register-form {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  font-family: TT Blues Screen;
 }
 
-.header {
-  background-color: var(--dark-brown);
+.auth-form-container {
+  -webkit-backdrop-filter: blur(15px);
+  -moz-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+  margin: 0.5rem;
+  margin-top: 10rem;
+  padding: 5rem;
+  border: 1px solid white;
+  border-radius: 15px; 
+  width: auto;
+}
+
+.auth-form-container h2 {
+  color: white;
+}
+
+.auth-form-container label {
+  text-align: left;
+  margin: 0.25rem 0;
+  margin-top: 15px;
+  color: #ffd396;
+  font-size: 20px;
+}
+
+.auth-form-container input {
+  margin: 0.25rem 0;
+  margin-top: 15px;
   padding: 1rem;
-  text-align: center;
-  color: white;
-}
-
-.title {
-  margin: 0;
-  font-size: 1.8rem;
-}
-
-.nav-bar {
-  display: flex;
-  justify-content: center;
-  margin-top: 0.5rem;
-}
-
-.nav-link {
-  margin: 0 1rem;
-  color: white;
-  text-decoration: none;
-}
-
-.nav-link:hover {
-  text-decoration: underline;
-}
-
-.main-content {
-  flex: 1;
-  padding: 2rem;
-  background-color: var(--light-gray);
-}
-
-.login-form {
-  margin-bottom: 2rem;
-  background-color: var(--brown);
-  padding: 1.5rem;
-  border-radius: 5px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.section-title {
-  margin-bottom: 1rem;
-  color: white;
-}
-
-.form-group {
-  margin-bottom: 1rem;
-}
-
-.label {
-  display: block;
-  margin-bottom: 0.5rem;
-}
-
-.input-field {
-  width: 100%;
-  padding: 0.5rem;
-  border: 1px solid var(--gray);
-  border-radius: 4px;
-}
-
-.submit-button {
-  width: 100%;
-  padding: 0.7rem;
-  background-color: var(--dark-brown);
-  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 15px;
+  width: auto;
   border: none;
-  border-radius: 4px;
+}
+
+.auth-form-container button {
+  border: none;
+  background-color: gray;
+  color: black;
+  margin-top: 40px;
   cursor: pointer;
-}
-
-.submit-button:hover {
-  background-color: var(--brown);
-}
-
-.info-section {
+  height: 40px;
   text-align: center;
-  background-color: var(--green);
-  padding: 2rem;
-  color: white;
+  align-items: center;
+  font-size: 18px;
+}
+
+.register-form button:hover {
+  background-color: #ffd396;
+  border-radius: 45px;
+  transition: 1s;
+}
+
+.Food {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  left: 0vw;
+  top: 45vh;
+  width: 100vw;
+}
+
+.leftarrow {
+  display: flex;
+  justify-content: left;
+  border: 1px solid white;
   border-radius: 5px;
-}
-
-.info-text {
-  margin-top: 1rem;
-}
-
-.info-image {
-  max-width: 100%;
-  height: auto;
-  margin-top: 1rem;
-}
-
-.footer {
-  text-align: center;
-  background-color: var(--dark-brown);
+  margin-left: 5vw;
+  padding-bottom: 10px;
+  padding-left: 13px;
+  padding-right: 13px;
+  padding-top: 10px;
+  width: auto;
   color: white;
-  padding: 1rem 0;
+  background-color: black;
 }
+
+.rightArrows {
+  display: flex;
+  justify-content: right;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-right: 5vw;
+  padding-left: 13px;
+  padding-right: 13px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: black;
+  background-color: white;
+}
+
