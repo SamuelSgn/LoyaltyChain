@@ -1,52 +1,37 @@
 import React from "react";
-import "./App.css";
+import { Login } from "./Login";
+import  Register  from "./Register";
+import Home from "./pages/home";
+import {BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import A_propos from "./pages/A_propos";
+import Contact from "./pages/Contact";
+// import Dashboard from "./Users/Dashboard";
+import Menu from "./Components/Menu";
+import Board from "./Users/Board";
+import Sales from "./Users/Sales";
+import Report from "./Users/Rapport";
+import MenuItem from "./Components/MenuItem";
 
-const App = () => {
+function App() {
+
   return (
-    <div className="app-container">
-      <header className="header">
-        <h1 className="title">Plateforme LoyaltyChain</h1>
-        <nav className="nav-bar">
-          <a href="#" className="nav-link">Accueil</a>
-          <a href="#" className="nav-link">Inscription</a>
-          <a href="#" className="nav-link">Connexion</a>
-          <a href="#" className="nav-link">Profil</a>
-          <a href="#" className="nav-link">Récompenses</a>
-        </nav>
-      </header>
-      <main className="main-content">
-        <section className="login-form">
-          <h2 className="section-title">Connexion</h2>
-          <form>
-            <div className="form-group">
-              <label htmlFor="email">Email :</label>
-              <input type="email" id="email" className="input-field" />
-            </div>
-            <div className="form-group">
-              <label htmlFor="password">Mot de passe :</label>
-              <input type="password" id="password" className="input-field" />
-            </div>
-            <button type="submit" className="submit-button">Se connecter</button>
-          </form>
-        </section>
-        <section className="info-section">
-          <h2 className="section-subtitle">La Blockchain au Service des Entreprises Locales</h2>
-          <p className="info-text">
-            Découvrez comment LoyaltyChain utilise la technologie blockchain pour offrir transparence,
-            sécurité et efficacité aux entreprises locales et leurs clients.
-          </p>
-          <img
-            src="/Blockchain.png"
-            alt="Blockchain et entreprises locales"
-            className="info-image"
-          />
-        </section>
-      </main>
-      <footer className="footer">
-        <p>&copy; 2025 LoyaltyChain. Tous droits réservés.</p>
-      </footer>
+    <div className="App">
+      <Router>
+        <Routes>
+          <Route path="/" exact Component={Home}/>
+          <Route path="/Login" exact Component={Login}/>
+          <Route path="/Register" exact Component={Register}/>
+          <Route path="/A propos" exact Component={A_propos}/>
+          <Route path="/Contact" exact Component={Contact}/>
+          <Route path="/Dashboard" exact Component={Board}/>
+          <Route path="/Ventes" exact Component={Sales}/>
+          <Route path="/Rapport" exact Component={Report}/>
+          <Route path="/Menu" exact Component={Menu}/>
+          <Route path="/Menu" exact Component={MenuItem}/>
+          </Routes>
+      </Router>
     </div>
   );
-};
+}
 
 export default App;
