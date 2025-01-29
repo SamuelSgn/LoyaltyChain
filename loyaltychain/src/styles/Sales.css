@@ -1,0 +1,44 @@
+  .Sales {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .Tabs {
+    margin-bottom: 45vh;
+    margin-top: 25vh;
+  }
+  
+  .Tabs button {
+    margin-top: 45vh;
+    margin: 0.15rem;
+    display: flex;
+    margin-right: 35vw;
+    padding: 10px;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    width: 15vw;
+    font-size: 25px;
+    text-align: center;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .Tabs button:hover {
+    background-color: #0056b3;
+  }
+  
+  .Chart {
+    width: 80%;
+    max-width: 600px;
+    margin-bottom: 30px;
+    margin-top: -85vh;
+    margin-left: 45vw;
+  }
+  

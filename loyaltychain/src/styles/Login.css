@@ -1,0 +1,58 @@
+.log-form-container, .login-form {
+    display: flex;
+    flex-direction: column;
+    font-family: TT Blues Screen;
+}
+
+.log-form-container {
+    margin: 0.5rem;
+    margin-top: 10rem;
+    padding: 5rem;
+    border: 1px solid white;
+    border-radius: 15px; 
+    width: auto;
+  }
+
+  .log-form-container h2 {
+    color: white;
+  }
+  
+  .log-form-container label {
+    text-align: left;
+    margin: 0.25rem 0;
+    margin-top: 15px;
+    /* color: #f58115; */
+    color: #ffd396;
+    font-family: TTBluesScreen;
+    font-size: 20px;
+  }
+  
+  .log-form-container input {
+    margin: 0.25rem 0;
+    margin-top: 15px;
+    padding: 1rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: auto;
+    border: none;
+  }
+  
+  .log-form-container button {
+    border: none;
+    background-color: gray;
+    color: black;
+    margin-top: 40px;
+    cursor: pointer;
+    height: 40px;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .login-form button:hover {
+    /* background-color: #f58115; */
+    background-color: #ffd396;
+    border-radius: 15px;
+    transition: 1s;
+  }

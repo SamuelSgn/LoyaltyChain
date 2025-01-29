@@ -1,0 +1,19 @@
+.Report {
+    /* border: 2px solid green; */
+    width: 55vw;
+    height: 45vh;
+    margin-top: 25vh;
+    margin-left: 25vw;
+}
+
+.Command {
+    /* border: 2px solid green; */
+    margin-left: 25vw;
+    margin: 0.25rem;
+}
+
+.Command label {
+    margin-left: vw;
+    border: 2px solid yellow;
+    color: blue;
+}

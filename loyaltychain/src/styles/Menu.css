@@ -1,0 +1,65 @@
+/* Style pour le conteneur des articles */
+.menu {
+    display: flex;
+    flex-wrap: wrap; /*Permet aux articles de passer à la ligne suivante si l'espace est insuffisant
+    /* flex-direction: row; */
+    /* align-items: center; */
+    border: 2px solid black;
+    margin-top: 10vh;
+    margin-bottom: 35vh;
+  }
+
+  .menu h1 {
+    margin-top: 1vh;
+    margin-left: 30vw;
+  }
+  
+  .add-item-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25vh;
+    margin-left: -15vw;
+    border: 2px solid green;
+    border-radius: 15px;
+    padding: 15px;
+  }
+
+  .add-item-form input {
+    margin: 0.5rem 0;
+  }
+  
+  /* Style pour chaque article */
+  .menu li {
+     margin: 5px; /*Marge autour de chaque article pour l'espacement
+    padding: 15px;
+    border: 1px solid #ccc; /* Bordure pour délimiter chaque article */
+    border-radius: 25px; /* Coins arrondis */
+    text-align: center;
+    display: inline-block;
+    margin-top: 25vh;
+    /* color: #7ed957; */
+    background-color: #7ed957;
+    width: 300px; /* Largeur de chaque article */
+    height: 500px;
+  }
+  
+  /* Style pour l'image de l'article */
+  .menu img {
+     max-width: 80%; /* Ajuste la largeur de l'image pour qu'elle s'adapte à la largeur de l'article */
+     height: 50%; /*Garantit que l'aspect ratio de l'image est conservé  */
+  }
+  
+  /* Style pour le bouton "Ajouter" */
+  .menu button {
+    background-color: #004cff; /* Couleur de fond du bouton */
+    color: #fff; /* Couleur du texte du bouton */
+    border: none;
+    padding: 5px 10px; /* Espacement interne du bouton */
+    cursor: pointer;
+  }
+  
+  /* Style pour le bouton "Ajouter" au survol (hover) */
+  .menu button:hover {
+    background-color: #58758b; /* Couleur de fond au survol */
+  }
+  

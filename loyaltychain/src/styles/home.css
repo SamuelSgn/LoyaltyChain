@@ -1,0 +1,137 @@
+.home {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  
+  .headerContainer {
+    width: auto;
+    margin-left: 50px;
+  }
+
+  .Arrays {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 0vw;
+    top: 45vh;
+    width: 100vw;
+  }
+
+  .arrow {
+    display: flex;
+    justify-content: left;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-left: 5vw;
+    padding-bottom: 10px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 10px;
+    width: auto;
+    color: white;
+    background-color: black;
+  }
+
+  .Arrows {
+    display: flex;
+    justify-content: right;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-right: 5vw;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+    background-color: white;
+  }
+  
+  .headerContainer h1 {
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+    height: 60px;
+    font-weight: 50;
+    color: black;
+  }
+  
+  .headerContainer p {
+    padding: 0;
+    font-size: 80px;
+    font-weight: bolder;
+    font-family: TTBlueScreen;
+    color: white;
+  }
+  
+  .headerContainer button {
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-content: center;
+    background-color: orange;
+    height: 50px;
+    width: 300px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .headerContainer button:hover {
+    background-color: #07090a;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+  }
+  
+  @media only screen and (max-width: 650px) {
+    .home {
+      justify-content: center;
+      align-items: center;
+    }
+    .headerContainer h1,
+    .headerContainer p {
+    }
+  
+    .headerContainer {
+      margin-left: 0px;
+      border-radius: 10px;
+      padding: 10px;
+      width: 80%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-color: #121619;
+      color: white;
+    }
+  
+    .headerContainer h1 {
+      font-size: 40px;
+      height: 30px;
+      color: white;
+    }
+  
+    .headerContainer p {
+      font-size: 30px;
+      color: white;
+    }
+  
+    .headerContainer button {
+      background-color: white;
+      color: #121619;
+      margin-bottom: 30px;
+    }
+  
+    .headerContainer button:hover {
+      background-color: rgb(225, 225, 225);
+      color: #121619;
+    }
+  }

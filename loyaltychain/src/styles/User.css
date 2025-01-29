@@ -1,0 +1,23 @@
+.email-display {
+    position: absolute;
+    top: 60vh;
+    left: 25vw;
+    font-size: 18px;
+    width: 12vw;
+    height: 9vh;
+    color: #333; /* Couleur du texte */
+    background-color: #c51111; /* Couleur de fond du texte */
+    padding: 10px 15px; /* Rembourrage pour le texte */
+    border-radius: 8px; /* Coins arrondis du conteneur */
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1); /* Ombre portée */
+}
+
+.email-display p{
+    color: #333;
+    display: flex;
+    position: absolute;
+    top: 85vh;
+    left: 45vw;
+    background-color: white;
+    padding: 5rem;
+}
