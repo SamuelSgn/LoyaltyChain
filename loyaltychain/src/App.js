@@ -5,7 +5,6 @@ import Home from "./pages/home";
 import {BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import A_propos from "./pages/A_propos";
 import Contact from "./pages/Contact";
-// import Dashboard from "./Users/Dashboard";
 import Menu from "./Components/Menu";
 import Board from "./Users/Board";
 import Sales from "./Users/Sales";
