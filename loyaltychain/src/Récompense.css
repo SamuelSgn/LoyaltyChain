@@ -44,8 +44,7 @@ body {
   
   /* Élément de récompense */
   .recompense-item {
-    /* background-color: #5d3c64; Couleur violette foncée */
-    background-color: #D5E4CF;
+    background-color: #5d3c64; /* Couleur violette foncée */
     color: white;
     padding: 20px;
     border-radius: 8px;
