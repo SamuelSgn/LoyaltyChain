@@ -3,11 +3,12 @@ body {
     margin: 0;
     font-family: 'Arial', sans-serif;
     background-color: #f7f7f7;
-    color: #333;
+    /* color: #333; */
+    color: #D5E4CF;
   }
   
   .recompenses-container {
-    padding: 15px;
+    padding: 20px;
     text-align: center;
     background-color: #f7f7f7;
     min-height: 100vh;
@@ -43,7 +44,8 @@ body {
   
   /* Élément de récompense */
   .recompense-item {
-    background-color: #5d3c64; /* Couleur violette foncée */
+    /* background-color: #5d3c64; Couleur violette foncée */
+    background-color: #D5E4CF;
     color: white;
     padding: 20px;
     border-radius: 8px;
